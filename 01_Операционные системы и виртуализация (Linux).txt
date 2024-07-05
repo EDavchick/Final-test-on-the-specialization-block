@@ -1,0 +1,22 @@
+ed@ed-VB:~$ cat > Pets
+Dogs
+Cats
+Hamsters
+ed@ed-VB:~$ cat > Pack_animals
+Horses
+Camels
+Donkeys
+ed@ed-VB:~$ cat Pets Pack_animals > Human_Friends
+ed@ed-VB:~$ ls
+Desktop		Downloads	Human_Friends	Pets		Public	Templates	Documents	Music	Pack_animals	Pictures		snap	Videos
+ed@ed-VB:~$ mkdir new_dir
+ed@ed-VB:~$ mv Human_Friends ./new_dir
+ed@ed-VB:~$ ls
+Desktop		Downloads	new_dir		Pets		Public	Templates	Documents	Music	Pack_animals	Pictures		snap	Videos
+ed@ed-VB:~$ cd new_dir/
+ed@ed-VB:~$/new_dir$ ls
+Human_Friends
+
+ed@ed-VB:~$ 
+ed@ed-VB:~$ 
+ed@ed-VB:~$ 
